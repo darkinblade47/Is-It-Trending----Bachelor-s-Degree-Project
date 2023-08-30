@@ -1,0 +1,6 @@
+{
+    "cookie_confirm_xpath":"//div[@class=\"qc-cmp2-summary-buttons\"]/button[@mode=\"primary\"]",
+    "category_select_xpath": "//select[@id=\"search_category\"]",
+    "all_results_select_xpath": "//div[@class=\"dataTables_length\"]//select",
+    "score_table_xpath": "//table[@id=\"cputable\"]/tbody/tr"
+}

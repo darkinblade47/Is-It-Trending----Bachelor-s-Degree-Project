@@ -1,0 +1,24 @@
+{
+    "laptops":
+    {
+        "start_urls": ["https://www.emag.ro/laptopuri/sort-reviewsdesc/c"],
+        "scores_urls":  ["https://www.videocardbenchmark.net/GPU_mega_page.html", "https://www.cpubenchmark.net/CPU_mega_page.html"],
+        "laptop_urls_xpath": "//div[@class=\"card-item card-standard js-product-data\"]/div/div/div[@class=\"card-v2-info\"]/a",
+        "next_page_li_xpath": "//ul[@class=\"mrg-sep-none pagination pagination-sm\"]//li[last()]",
+        "disabled_tag": "disabled hidden-xs hidden-sm",
+        "stock_paragraph_xpath": "//p[@class=\"stock-and-genius\"]",
+        "stock_label_xpath":"./span[1]",
+        "limited_stock":"label-limited_stock_qty",
+        "in_stock":"label-in_stock",
+        "specifications_table_tbody_xpath": "//div[@class=\"specifications-body\"]//table[@class=\"table table-striped specifications-table\"]/tbody",
+        "specifications_table_paragraphs_xpath": "//div[@class=\"specifications-body\"]//p[@class=\"pad-top-sm text-uppercase strong\"]/text()",
+        "js_scripts_xpath":"//script[@type=\"text/javascript\"]",
+        "js_script_xpath":"//script",
+        "laptop_model_xpath": "//head/title/text()",
+        "product_rating_xpath": "//div[@class = \"feedback-rating-2\"]//a/text()",
+        "table_row_key_xpath": "./td[1]/text()",
+        "table_row_value_xpath": "./td[2]/text()",
+        "product_image_xpath": "//div[@id=\"product-gallery\"]/div[1]/a/@href"
+    }
+
+}
